@@ -4,7 +4,7 @@ React Weekend Gallery - Mushroom Gallery!
 
 ## Description
 
-This app consists of a gallery of mushroom photos in a 3 column grid. The photos can be liked and deleted. New photos can be added.
-![Alt text](image.png)
+This app consists of a gallery of mushroom photos in a 3 column grid. The photos can be liked and deleted. New photos can be added. Data is stored in a postgresql database.
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+
+![Alt text](image.png)
