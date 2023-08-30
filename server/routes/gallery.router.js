@@ -45,4 +45,18 @@ router.post('/', (req, res) => {
     });
 });// end POST
 
+// DELETE
+router.delete('/:id', (req, res) => {
+    let id = req.params.id;
+    let queryText = 'DELETE FROM "gallery-items" WHERE "id" = $1;';
+    pool.query(queryText,[id] )
+    .then((result) =>{
+        res.sendStatus(200);
+    })
+    .catch((err) => {
+        console.log(`Error making query ${queryText}`, err);
+        res.sendStatus(500);
+    })
+  }) //end DELETE
+
 module.exports = router;

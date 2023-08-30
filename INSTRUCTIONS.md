@@ -1,4 +1,4 @@
-# React - Gallery of My Life
+git c# React - Gallery of My Life
 
 Before you get started make sure to look through the code that has been provided. Server side code to retrieve data (`GET`) and like a photo (`PUT`) have been provided for you. For practice, we recommend testing out these routes in Postman. You should not need to modify these routes for base mode.
 
