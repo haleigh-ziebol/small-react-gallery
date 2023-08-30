@@ -1,9 +1,10 @@
 # Project Name
 
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+React Weekend Gallery - Mushroom Gallery!
 
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
+This app consists of a gallery of mushroom photos in a 3 column grid. The photos can be liked and deleted. New photos can be added.
+![Alt text](image.png)
 
 Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).

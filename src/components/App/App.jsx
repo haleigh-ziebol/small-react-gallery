@@ -83,6 +83,8 @@ function App() {
         <button onClick={openModal}>Add Photo</button>
       </header>
       <GalleryList setUpdateData= {setUpdateData} galleryData={galleryData} />
+      <br/>
+      <br/>
     </div>
   )
 }
