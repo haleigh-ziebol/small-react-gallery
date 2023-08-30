@@ -8,6 +8,7 @@ function GalleryItem({task, setUpdateData}) {
     //add like to galleryData
     const addLike = () => {
         let id = task.id
+        console.log(typeof id)
         axios.put(`/gallery/like/${id}`)
         .then((response) =>{
         console.log(response.data);
