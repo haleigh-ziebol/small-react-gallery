@@ -14,10 +14,24 @@
 }
 
 img {
-  width: 25%;
-  height: 25%
+  height: 200px;
+  width: 120px;
 }
 
-.gallerylist {
-  display: block;
+.gallerylist{
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 40px;
+  column-gap: 20px;
+}
+
+.galleryitem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description{
+  height: 200px;
+  width: 120px;
 }

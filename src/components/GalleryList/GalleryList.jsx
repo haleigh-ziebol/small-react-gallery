@@ -1,10 +1,10 @@
 import React from 'react';
 import GalleryItem from '../GalleryItem/GalleryItem';
 
-function GalleryList ({galleryData}) {
+function GalleryList ({galleryData, setUpdateData}) {
     return(
         <div className="gallerylist">
-            {galleryData.map(task => <GalleryItem task={task}/>)}
+            {galleryData.map(task => <GalleryItem task={task} setUpdateData = {setUpdateData}/>)}
         </div>
     );
 
