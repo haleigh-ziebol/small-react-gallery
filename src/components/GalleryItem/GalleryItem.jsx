@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import axios from 'axios';
 
+import DeleteIcon from '@mui/icons-material/Delete';
+
 function GalleryItem({task, setUpdateData}) {
 
     let [displayImage, setDisplayImage] = useState(true);
@@ -35,7 +37,7 @@ function GalleryItem({task, setUpdateData}) {
 
     return(
         <div className="galleryitem" key={task.id}>
-            {(displayImage == true) ? <img src={task.path} onClick={() => setDisplayImage(false)}/> : <div className="description"><p onClick={() => setDisplayImage(true)}>{task.description}</p> <button onClick={deletePhoto}>delete photo</button></div>}
+            {(displayImage == true) ? <img src={task.path} onClick={() => setDisplayImage(false)}/> : <div className="description"><p onClick={() => setDisplayImage(true)}>{task.description}</p> <button onClick={deletePhoto}><DeleteIcon /></button></div>}
             <p>likes: {task.likes}</p>
             <button onClick={addLike}>Like it!</button>
         </div>
