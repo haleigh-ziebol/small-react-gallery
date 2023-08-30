@@ -33,6 +33,9 @@ function App() {
   let [photoURL, setPhotoURL] = useState('');
   let [photoDescription, setPhotoDescription] = useState('');
 
+  Modal.setAppElement(document.getElementById('root'));
+
+
   function openModal() {
     setIsOpen(true);
   }
