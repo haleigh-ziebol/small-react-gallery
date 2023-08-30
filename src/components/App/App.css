@@ -13,3 +13,11 @@
   font-size: 1.5em;
 }
 
+img {
+  width: 25%;
+  height: 25%
+}
+
+.gallerylist {
+  display: block;
+}
