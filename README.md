@@ -1,4 +1,5 @@
 # Mushroom Photo Gallery in React
+Completed: 9/7/2023
 
 ## Description
 
