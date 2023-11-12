@@ -22,10 +22,10 @@ Run `npm run client` in your terminal. <br />
 The `npm run client` command will open up a new browser tab for you! <br />
 
 ## Usage
-Enter a task name and due date, then click the 'Enter Task' button. <br />
-The task will populate below in the task list. <br />
-Click the box associated with a task to complete the task. <br />
-Click the delete box associated with a task to delete the task from the list. <br />
+Add a photo by clicking the 'Add Photo' button. Enter a photo url and description. <br />
+The photo will populate below in the gallery. <br />
+Click the like button associated with a photo to like it. You will see the like count increase. <br />
+To delete, click a photo once to access the delete button. Then press it. <br />
 
 ## Acknowledgement
 Thanks to Prime Digital Academy who equipped and helped me to make this application a reality.
