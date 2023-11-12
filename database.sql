@@ -2,7 +2,7 @@ CREATE TABLE "gallery-items" (
 	"id" SERIAL PRIMARY KEY,
 	"path" varchar(300),
 	"description" varchar(300),
-    "likes" integer
+    	"likes" integer
 );
 
 INSERT INTO "gallery-items" ("path", "description", "likes") 
